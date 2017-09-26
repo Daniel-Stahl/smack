@@ -14,6 +14,7 @@
 		43C75E551F71B7D500711D96 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C75E541F71B7D500711D96 /* ChatVC.swift */; };
 		43C75E571F71B7E600711D96 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C75E561F71B7E600711D96 /* ChannelVC.swift */; };
 		43C75E591F71BBE800711D96 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C75E4F1F71B46200711D96 /* SWRevealViewController.m */; };
+		43C75E861F7AF64C00711D96 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C75E851F7AF64C00711D96 /* GradientView.swift */; };
 		9C4C671E5EE707938FEB4BE9 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16072BDC2592A7F124851C2A /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		43C75E501F71B46200711D96 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Assets/Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
 		43C75E541F71B7D500711D96 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		43C75E561F71B7E600711D96 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		43C75E851F7AF64C00711D96 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		9A4F3220B3436BCA934A9004 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 		43C75E521F71B7AE00711D96 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				43C75E851F7AF64C00711D96 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				43C75E591F71BBE800711D96 /* SWRevealViewController.m in Sources */,
 				43C75E551F71B7D500711D96 /* ChatVC.swift in Sources */,
+				43C75E861F7AF64C00711D96 /* GradientView.swift in Sources */,
 				43C75E571F71B7E600711D96 /* ChannelVC.swift in Sources */,
 				4397E7381F6C71ED00F77511 /* AppDelegate.swift in Sources */,
 			);
