@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43595F711F82D642006AF806 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43595F701F82D642006AF806 /* AuthService.swift */; };
+		43595F731F880ED7006AF806 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43595F721F880ED7006AF806 /* RoundedButton.swift */; };
 		4397E7381F6C71ED00F77511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397E7371F6C71ED00F77511 /* AppDelegate.swift */; };
 		4397E73D1F6C71ED00F77511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4397E73B1F6C71ED00F77511 /* Main.storyboard */; };
 		4397E73F1F6C71ED00F77511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4397E73E1F6C71ED00F77511 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		03094A6D50E2017B5E4036F7 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		16072BDC2592A7F124851C2A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43595F701F82D642006AF806 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		43595F721F880ED7006AF806 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		4397E7341F6C71ED00F77511 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4397E7371F6C71ED00F77511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4397E73C1F6C71ED00F77511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				43C75E851F7AF64C00711D96 /* GradientView.swift */,
+				43595F721F880ED7006AF806 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C75E591F71BBE800711D96 /* SWRevealViewController.m in Sources */,
+				43595F731F880ED7006AF806 /* RoundedButton.swift in Sources */,
 				43C75E551F71B7D500711D96 /* ChatVC.swift in Sources */,
 				43C4E1F01F7D8AD8002FE229 /* CreateAccountVC.swift in Sources */,
 				43595F711F82D642006AF806 /* AuthService.swift in Sources */,
